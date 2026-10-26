@@ -62,7 +62,7 @@ Four problem sets (60%) and an in-class quiz (40%).
 
 Students will be expected to produce five problem sets in the AT, due at the beginning of weeks 3, 4, 5, 7, and 8. The first problem set is formative. The remaining four problem sets will be marked, and will provide 60% of the mark. The problem sets will be distributed by Monday evening and due at 12:00 noon the following Monday. We will try our best to give you marks and comments by the first Friday after submission.
 
-The quiz, worth 40% of the course mark, will be completed in class in week 11. 
+The quiz, worth 40% of the course mark, will be completed in the seminars on Tuesday of week 11. 
 
 Doctoral students registered for MY570 have the option to complete a substantive project of their own choice in place of the quiz. You will be required to develop Python software that addresses a sufficiently complex computational social science task. Examples of possible projects include a software package that collects and analyses online data, an experimental game, or an agent-based model. The project should be approved by the instructors, so please get in touch with us well in advance.
 
@@ -207,19 +207,21 @@ Book office hours via StudentHub.
 
 ## Schedule
 
+> **Schedule updated on 26 October 2026.** Classes in Python are now taught over two weeks (weeks 5 and 7), Testing and Debugging moves from week 7 to week 8, and the week on other programming languages (R) is dropped. The quiz takes place in the seminars on Tuesday of week 11. The problem set schedule is unchanged.
+
 | Week | Topic |
 |:----:|:------|
 | 1 | [What is Computation?](#week-1-what-is-computation) |
 | 2 | [Data Types in Python](#week-2-data-types-in-python) |
 | 3 | [Control Flow in Python](#week-3-control-flow-in-python) |
 | 4 | [Functions in Python](#week-4-functions-in-python) |
-| 5 | [Classes in Python](#week-5-classes-in-python) |
+| 5 | [Classes in Python I](#week-5-classes-in-python-i) |
 | 6 | *Reading Week* |
-| 7 | [Testing and Debugging in Python](#week-7-testing-and-debugging-in-python) |
-| 8 | [Other Programming Languages](#week-8-other-programming-languages) |
+| 7 | [Classes in Python II](#week-7-classes-in-python-ii) |
+| 8 | [Testing and Debugging in Python](#week-8-testing-and-debugging-in-python) |
 | 9 | [Algorithms and Order of Growth](#week-9-algorithms-and-order-of-growth) |
 | 10 | [Searching and Sorting Algorithms](#week-10-searching-and-sorting-algorithms) |
-| 11 | [Quiz & Graph Algorithms](#week-11-graph-algorithms) |
+| 11 | [Graph Algorithms](#week-11-graph-algorithms) · **Quiz** in the seminars on Tuesday |
 
 ---
 ### Week 1. What is Computation?
@@ -275,44 +277,39 @@ Good programmers are not measured by the amount of code they write but by the am
   * What are functions good for?
 
 ---
-### Week 5. Classes in Python
+### Week 5. Classes in Python I
 
-Object-oriented programming is a programming paradigm that helps increase modularity, reduce complexity, and foster code reuse. Objects are a data abstraction consisting of (1) an internal representation i.e. object attributes and (2) an interface for interacting with the objects through methods and functions. Objects are instances of classes and classes determine the type of an object. In this week, we will discuss how to define classes in Python and how to create instances of a class. We will also touch upon class inheritance and hierarchies, as well as generators.
+Object-oriented programming is a programming paradigm that helps increase modularity, reduce complexity, and foster code reuse. Objects are a data abstraction consisting of (1) an internal representation i.e. object attributes and (2) an interface for interacting with the objects through methods and functions. Objects are instances of classes and classes determine the type of an object. In this week, we will discuss how to define classes in Python and how to create instances of a class: data attributes, methods, `self`, and special methods such as `__init__()` and `__str__()` and those for operators like `<` and `==`.
 
 * *Readings*
-  * Guttag. Chapter 8, pp.109–134.
+  * Guttag. Chapter 8.1, pp.109–118.
 * [*Lecture*](wk5/MY470_wk5_lecture.ipynb)
-* [*Lab*](wk5/MY470_wk5_class.ipynb)
+* [*Lab*](wk5/class/)
   * Programming in teams
-  * Using GitHub as a collaboration tool
+  * Using GitHub as a collaboration tool: branches and pull requests
 
 ---
-### Week 7. Testing and Debugging in Python
+### Week 7. Classes in Python II
+
+We continue with classes and object-oriented programming. We will discuss class inheritance and hierarchies, encapsulation and information hiding, and generators, and consider when it is worth writing your own classes.
+
+* *Readings*
+  * Guttag. Chapters 8.2-8.4. pp.118–134.
+* [*Lecture*](wk7/MY470_wk7_lecture.ipynb)
+* *Lab*
+
+---
+### Week 8. Testing and Debugging in Python
 
 Writing computer programs is easy but making them work properly is hard. We test programs to check if they work as intended and we debug them when we find out that they don’t. In this lecture, we will discuss different ways to test and debug programs. We will cover common error messages and how to catch them with `try`, `except`, `raise`, and `assert`.
 
 * *Readings*
   * Guttag. Chapters 6–7, pp.85–108.
-* [*Lecture*](wk7/MY470_wk7_lecture.ipynb)
-* [*Lab*](wk7/MY470_wk7_class.ipynb)
+* [*Lecture*](wk8/MY470_wk8_lecture.ipynb)
+* [*Lab*](wk8/MY470_wk8_class.ipynb)
   * Unit testing in Python
   * Using .py files to structure programs and conduct testing
   * Defensive programming with `try`, `except`, and `assert`
-
----
-### Week 8. Other Programming Languages
-
-This week, we will review many concepts studied until now by learning how they are implemented in the R programming language. After a general introduction to R, we will discuss basic data structures. We will then continue with the control flow, a discussion of functions in R, and reading in data and plotting. We will conclude the lecture with an outlook on tools which are currently used in a typical data science workflow with R.
-
-* *Readings*
-  * Venables, W. N. et. al.  2017.  [_An Introduction to R_](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf).  Chapters 1-6, 9-10.
-  * The [Introduction to R handout](wk8/Introductory_R.pdf).
-  * (optional, but recommended) Zuur, A., Ieno, E. N., & Meesters, E. (2009). _A Beginner's Guide to R_. Springer Science & Business Media.
-  * (optional) Patrick Burns.  2011.  _The R Inferno_.  http://www.burns-stat.com/pages/Tutor/R_inferno.pdf
-* [*Lecture*](wk8/MY470_wk8_lecture.Rmd)
-* *Lab*
-  * [Translating Python code into R](wk8/MY470_wk8_class.Rmd)
-  * [Functional programming in Python with `lambda`, `filter`, `map` and `reduce`](wk8/MY470_wk8_class.ipynb)
 
 ---
 ### Week 9. Algorithms and Order of Growth
@@ -338,7 +335,10 @@ We will use the concepts and approaches introduced in the previous lecture to lo
 * *Lab*
   
 ---
-### Week 11. Quiz & Graph Algorithms
+### Week 11. Graph Algorithms
+
+**Quiz:** in the seminars on Tuesday of week 11 (see [Assessment](#assessment)).
+
 We will continue getting a better understanding of abstract data types and computational complexity by covering stacks, queues, trees, graphs, and algorithms for graphs. The lecture will end with an overview of what we have learned in the course and possible steps you can take to further develop your programming skills.
 
 * *Readings*
