@@ -62,7 +62,7 @@ Four problem sets (60%) and an in-class quiz (40%).
 
 Students will be expected to produce five problem sets in the AT, due at the beginning of weeks 3, 4, 5, 7, and 8. The first problem set is formative. The remaining four problem sets will be marked, and will provide 60% of the mark. The problem sets will be distributed by Monday evening and due at 12:00 noon the following Monday. We will try our best to give you marks and comments by the first Friday after submission.
 
-The quiz, worth 40% of the course mark, will be completed in the seminars on Tuesday of week 11. 
+The quiz, worth 40% of the course mark, will be completed in the seminars on Tuesday of week 11 (**8 December 2026**). 
 
 Doctoral students registered for MY570 have the option to complete a substantive project of their own choice in place of the quiz. You will be required to develop Python software that addresses a sufficiently complex computational social science task. Examples of possible projects include a software package that collects and analyses online data, an experimental game, or an agent-based model. The project should be approved by the instructors, so please get in touch with us well in advance.
 
