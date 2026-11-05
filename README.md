@@ -296,7 +296,7 @@ We continue with classes and object-oriented programming. We will discuss class 
 * *Readings*
   * Guttag. Chapters 8.2-8.4. pp.118–134.
 * [*Lecture*](wk7/MY470_wk7_lecture.ipynb)
-* *Lab*
+* [*Lab*](wk7/MY470_wk7_class.ipynb)
 
 ---
 ### Week 8. Testing and Debugging in Python
