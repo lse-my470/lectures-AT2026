@@ -13,5 +13,6 @@ __pycache__/
 # Week 5: no python notebook
 wk5/MY470_wk5_class.ipynb
 
-# temporary: week 7 material not yet released
-wk7/
+# Week 7: previous version and lab drafts, kept locally
+wk7/MY470_wk7_lecture_old.ipynb
+wk7/class_drafts/
