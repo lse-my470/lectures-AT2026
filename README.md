@@ -321,7 +321,7 @@ Algorithms are recipes that consist of a sequence of simple steps, control flow,
   * Bradley and Ranum. [Chapter 3](https://runestone.academy/ns/books/published/pythonds/AlgorithmAnalysis/toctree.html).
 * [*Lecture*](wk9/MY470_wk9_lecture.ipynb)
 * [*Lab*](wk9/MY470_wk9_class.ipynb)
-  * Reading programs written in Python and R and evaluating their time complexity
+  * Measuring running time, finding the order of growth of code, and choosing efficient data structures
 
 ---
 ### Week 10. Searching and Sorting Algorithms
