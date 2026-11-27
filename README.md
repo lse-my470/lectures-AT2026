@@ -326,14 +326,14 @@ Algorithms are recipes that consist of a sequence of simple steps, control flow,
 ---
 ### Week 10. Searching and Sorting Algorithms
 
-We will use the concepts and approaches introduced in the previous lecture to look at the complexity of several classic algorithms on searching and sorting. The goal is to get a better intuition of how to approach problems of efficiency. We will use examples written in both Python and R.   
+We will use the concepts and approaches introduced in the previous lecture to look at the complexity of several classic algorithms on searching and sorting. The goal is to get a better intuition of how to approach problems of efficiency.
 
 * *Readings*
   * Guttag. Chapter 10.1–10.2, pp.151–164.
   * Bradley and Ranum. [Chapter 6](https://runestone.academy/ns/books/published/pythonds/SortSearch/toctree.html).
 * [*Lecture*](wk10/MY470_wk10_lecture.ipynb)
-* *Lab*
-  
+* [*Lab*](wk10/MY470_wk10_class.ipynb)
+
 ---
 ### Week 11. Graph Algorithms
 
